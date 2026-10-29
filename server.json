@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "net.baldfade/baldfade",
+  "description": "List the bald, buzz cut and fade hairstyles BaldFade can preview. Read-only, no account needed.",
+  "title": "BaldFade",
+  "version": "1.0.0",
+  "websiteUrl": "https://baldfade.net/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://baldfade.net/api/mcp"
+    }
+  ]
+}
